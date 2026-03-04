@@ -1,0 +1,20 @@
+.ipynb_checkpoints
+.conda
+__pycache__/
+
+# mode
+model/ik_propensity_model.pkl
+model/ike_propensity_model.pkl
+
+# Unwanted file
+residuals/performance_val.py
+residuals/performance.py
+residuals/propensity.ipynb
+residuals/test.ipynb
+residuals/testing_sample.csv.zip
+residuals/training_sample.csv.zip
+# others
+*.docx
+predicted.csv
+predicted1.csv
+
