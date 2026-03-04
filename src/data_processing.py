@@ -16,7 +16,8 @@ def clean_data(df):
     output_path = os.path.join(DATA_DIR, 'final_version.csv')
     # data.to_csv(output_path, index=False)
     data.to_csv('../data/final_version',index=False)
-    print(f'Clean training data saved to: {output_path}')
+    # print(f'Clean training data saved to: {output_path}')
+    print('Clean training data saved')
     
     return data
 
