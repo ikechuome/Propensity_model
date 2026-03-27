@@ -14,7 +14,7 @@ def clean_data(df):
     
     # Save to data folder regardless of where function is called from
     
-    output_path = os.path.join(DATA_DIR, 'final_version.csv')
+    output_path = os.path.join(DATA_DIR, 'final_version1.csv')
  
     df.to_csv(output_path,index=False)
     # print(f'Clean training data saved to: {output_path}')
